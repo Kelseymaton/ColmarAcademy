@@ -1,0 +1,6 @@
+/* containers */
+.content-container {
+  display: block;
+  border: 5px black;
+  padding-top: 24px;
+}
