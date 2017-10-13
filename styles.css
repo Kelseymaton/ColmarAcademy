@@ -1,6 +1,30 @@
-/* containers */
-.content-container {
-  display: block;
-  border: 5px black;
-  padding-top: 24px;
+/* banner */
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: #D9D9D9;
 }
+
+.banner .banner-left {
+  width: 60%;
+  margin: 32px 24px;
+}
+
+.banner-left img{
+  width: 100%;
+  height: auto;
+}
+
+.banner-content{
+   width: 40%;
+}
+
+
+body {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* images */
