@@ -1,8 +1,14 @@
+@font-face {
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+}
+
+
 body {
   width: auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p {
