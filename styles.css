@@ -1,7 +1,7 @@
 /* overall website */
 
 @font-face {
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
 }
 
 body {
@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Zilla Slab', serif;
 }
 
 p {
