@@ -1,7 +1,7 @@
 /* overall website */
 
 @font-face {
-  <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900" rel="stylesheet">
 }
 
 body {
@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  font-family: 'Zilla Slab', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -26,10 +26,12 @@ header {
   align-items: center;
   margin: auto 24px auto 24px;
 }
+
 .logo {
   display: flex;
   align-items: center;
   font-size: 32px;
+  width: 200px;
 }
 
 }
@@ -52,17 +54,22 @@ ul {
 }
 
 .header-menu li {
-    display: inline-flex;
-    list-style: none;
-    font-size: 15px;
-    padding-right: 15px;
+  display: inline-flex;
+  list-style: none;
+  font-size: 15px;
+  padding-right: 15px;
 }
 
-/* banner */
+.header-menu li:hover{
+  color: #0C7F1D;
+  font-weight: bold;
+}
+
+/* first banner */
 .banner {
   display: flex;
   align-items: center;
-  background-color: #D9D9D9;
+  background-color: #FFFAF2;
 }
 
 .banner .banner-left {
@@ -81,7 +88,8 @@ ul {
 
 .banner-content h1 {
     color: #3E3F40;
-    font-weight: 800;
+    font-weight: 900;
+    color: #0C7F1D;
     font-size: 60px;
 }
 
