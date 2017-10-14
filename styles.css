@@ -32,8 +32,15 @@ header {
   font-size: 32px;
 }
 
+}
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
 .header-menu {
   display: block;
+  padding-left: 25px;
 }
 
 .logo .name-pt2 {
@@ -47,7 +54,8 @@ ul {
 .header-menu li {
     display: inline-flex;
     list-style: none;
-    font-size: 30px;
+    font-size: 15px;
+    padding-right: 15px;
 }
 
 /* banner */
