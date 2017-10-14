@@ -64,14 +64,22 @@ ul {
 .header-menu li:hover{
   color: #0C7F1D;
   font-weight: bold;
+  transition-duration: .5s;
 }
+
+
+
+
+
+
+
 
 
 /* first banner */
 .banner {
   display: flex;
   align-items: center;
-  background-color: #FFFAF2;
+  background-color: #024416;
 }
 
 .banner .banner-left {
@@ -89,11 +97,14 @@ ul {
 }
 
 .content-right h1 {
-  color: #3E3F40;
-  font-weight: 900;
-  color: #0C7F1D;
+  font-weight: 700;
+  color: white;
   font-size: 60px;
   padding-bottom: 20px;
+}
+
+.content-right p {
+  color: white;
 }
 
 
@@ -109,6 +120,15 @@ ul {
 .start-here-button .span {
   color: black;
 }
+
+
+
+
+
+
+
+
+
 
 /* 2nd banner, main content */
 
@@ -164,5 +184,25 @@ ul {
   font-size: 15px;
 }
 
+.info p{
+  color: #3E3F40;
+}
+
+.our-campus {
+  border-top: #3E3F40 solid 1px;
+  border-bottom: #3E3F40 solid 1px;
+}
+
 
 /* 2nd banner, main content */
+
+.courses{
+  background-color: #D9D9D9;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  /* margin-bottom: 32px; */
+}
