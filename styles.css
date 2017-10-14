@@ -87,17 +87,18 @@ ul {
    width: 40%;
 }
 
-.banner-content h1 {
-    color: #3E3F40;
-    font-weight: 900;
-    color: #0C7F1D;
-    font-size: 60px;
+.content-right h1 {
+  color: #3E3F40;
+  font-weight: 900;
+  color: #0C7F1D;
+  font-size: 60px;
+  padding-bottom: 20px;
 }
 
-.banner-content p {
-    font-weight: bold;
-    margin: 24px 0 24px 0;
-    color: #3E3F40;
+.content-right p {
+  font-weight: bold;
+  margin: 0px 0 19px 0;
+  color: #3E3F40;
 }
 
 .start-here-button{
@@ -113,12 +114,33 @@ ul {
   color: black;
 }
 
-/* main content */
+/* 2nd banner, main content */
 
 .main-content {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
+.main-content .content-left {
+  width: 60%;
+  margin: 32px 24px;
+}
 
-/* images */
+.main-content .content-right {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  width: 40%;
+}
+
+.content-left img {
+  width: 100%;
+  height: auto;
+}
+
+.main-content h2{
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
