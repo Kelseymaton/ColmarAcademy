@@ -14,9 +14,10 @@ body {
 
 p {
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 15px;
+  margin: 0px 0 19px 0;
+  color: #3E3F40;
 }
-
 
 /* top navigation */
 header {
@@ -95,11 +96,6 @@ ul {
   padding-bottom: 20px;
 }
 
-.content-right p {
-  font-weight: bold;
-  margin: 0px 0 19px 0;
-  color: #3E3F40;
-}
 
 .start-here-button{
   display: flex;
@@ -139,8 +135,34 @@ ul {
 }
 
 .main-content h2{
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 40px;
   margin-top: 32px;
   margin-bottom: 24px;
 }
+
+.Orientation-date, .our-campus, .our-guest, .Design-Prototype, .Now-and-then {
+    display: flex;
+    align-items: center;
+}
+
+.content-right img {
+  width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.info {
+  line-height: 1.5;
+}
+
+.content-right .info {
+    width: 65%;
+}
+
+.info h3 {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+/* 2nd banner, main content */
