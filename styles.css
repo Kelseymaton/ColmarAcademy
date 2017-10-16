@@ -19,6 +19,11 @@ p {
   color: #3E3F40;
 }
 
+h3 {
+  font-size: 34px;
+  font-weight: bold;
+}
+
 /* top navigation */
 header {
   height: 64px;
@@ -75,6 +80,12 @@ ul {
 
 
 
+
+
+
+
+
+
 /* first banner */
 .banner {
   display: flex;
@@ -120,6 +131,8 @@ ul {
 .start-here-button .span {
   color: black;
 }
+
+
 
 
 
@@ -194,7 +207,24 @@ ul {
 }
 
 
-/* 2nd banner, main content */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 3rd banner, courses */
 
 .courses{
   background-color: #D9D9D9;
@@ -205,4 +235,60 @@ ul {
   justify-content: center;
   margin-top: 32px;
   /* margin-bottom: 32px; */
+}
+
+
+.course {
+  margin: 0 32px 32px 0;
+  background-color: white;
+  width: 30%;
+}
+
+.course-info {
+  margin: 16px 0 32px 16px;
+}
+
+.course-info h3 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #3E3F40;
+}
+
+.course-info .middle {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.courses-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 32px 72px;
+}
+
+.course img{
+  width: 100%;
+}
+
+.img.course {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 4th Sec: Thesis Exhibit */
+
+
+.content-left video {
+  width: 100%;
 }
