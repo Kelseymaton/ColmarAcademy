@@ -281,14 +281,27 @@ ul {
 
 
 
-
-
-
-
-
 /* 4th Sec: Thesis Exhibit */
-
 
 .content-left video {
   width: 100%;
+}
+
+.Design-Prototype {
+  margin-top: 16px;
+}
+
+
+
+/* footer */
+footer .f {
+  margin-top: 16px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 24px;
+  border-top: 1px solid grey;
+  height: 80px;
 }
